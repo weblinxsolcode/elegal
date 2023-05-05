@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+.poppins{
+  font-family: 'Poppins', sans-serif !important;
+
+}
+.socialbtn {
+  border: 1px solid #29b8f6;
+  color: #29b8f6 !important;
+  border-radius: 8px;
+  padding: 5px 12px;
+  width: max-content;
+  cursor: pointer;
+  font-size: 18px;
+}
+.bannner___logo{
+  width: 160px;
+}
+.main___logo{
+  width: 160px;
+}
+.footer___logo{
+  width: 140px;
+}
+.rainbow {
+  /* background-image: url('../../public/rainbow.png'); */
+  background-size: 100% 100%;
+}
+
+.radius {
+  border-radius: 0px 0px 0px 40px !important;
+}
+
+.radius2 {
+  border-radius: 0px 0px 40px 0px !important;
+}
+
+.component__div {
+  /* background-image: url('../../public/component.png'); */
+  height: 400px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.border__div {
+  border: 3px dashed #fff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.absolute__img {
+  position: absolute;
+  top: 20%;
+  padding: 20px;
+  left: -8%;
+}
+
+.bg__line {
+  /* background-image: url('../../public/Lines.png'); */
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  background: #F1F4F8;
+}
+
+.test__box {
+  border-radius: 13px;
+  padding: 15px 20px;
+  width: 300px !important;
+  background-color: #fff;
+}
+
+.test__box button {
+  margin-top: 23px;
+  background: #F5F7FA;
+  border: none;
+  padding: 17px 10px;
+  font-weight: bold;
+  width: 100%;
+  text-align: start;
+}
+
+.test__box p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.test__content {
+  height: 300px;
+}
+
+
+.price__card__box {
+  width: 350px !important;
+  border: 1px solid #E6E8EB;
+  padding: 6px;
+  border-radius: 24px;
+}
+
+.price__card__img {
+  width: 100%;
+}
+
+.price__card__img img {
+  width: 100%;
+  height: 170px;
+  border-radius: 20px;
+}
+
+.card__price {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.price__details {
+  margin-top: 8px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #686868;
+  font-size: 14px;
+}
+
+.btn___add {
+  margin-top: 28px;
+  width: 100%;
+  height: 40px;
+  background: #EFF4FB;
+  border-radius: 8px 8px 15px 15px
+}
+
+
+.footer__row {
+  background: #070707;
+  border-radius: 48px;
+  padding: 20px 20px;
+}
+.cursor{
+  cursor: pointer;
+}
+.footer__row .col {
+  display: flex;
+  align-items: center;
+}
+
+.copy__right {
+  color: #999CA0;
+  font-size: large;
+}
+
+.footer__ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__ul li {
+  display: flex;
+  align-items: center;
+}
+
+.footer__ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 0px 10px;
+}
+
+.social__icons {
+  margin: 0px;
+}
+
+.ul___checkout li a {
+  color: #070707;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.checkout__section {
+  background: rgba(41, 184, 246, 0.3);
+}
+
+.tell__us__form {
+  display: flex;
+  align-items: flex-end;
+  gap: 26px;
+}
+.accordion-body{
+  color: #cccccc96 !important;
+
+}
+.tell__us__form .form-group {
+  width: 100%;
+}
+
+.tell__us__form .form-group label {
+  display: block;
+  font-weight: 500;
+}
+
+.tell__us__form .form-group input {
+  margin-top: 3px;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+.accordion-button{
+  border-radius: 20px 20px 0px 0px !important;
+}
+/* .collapse{
+  border-radius: 0px 0px 20px 20px !important;
+} */
+.tell__us__form .form-group input:focus {
+  outline: none;
+}
+
+.btn__submit__arrow {
+  padding: 6.8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #070707;
+}
+
+.text-gry {
+  color: #686868 !important;
+}
+.vh_100 {
+  height: 100vh !important;
+}
+.checkout___card {
+  background: #FFFFFF;
+  border: 1px solid #E6E8EB;
+  border-radius: 24px;
+  padding: 8px;
+}
+
+.checkout___card___img img {
+  width: 100%;
+  height: 184px;
+}
+
+.checkout___card___price {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.checkout___card___dsc {
+  color: #414345;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.strip___payment {
+  margin-top: 6%;
+  width: 90%;
+  height: 500px;
+  background: #E6E8EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.text-gry2 {
+  color: #999CA0;
+}
+
+.top___loading___bar {
+  position: relative;
+  background: #E6E8EB;
+  height: 10px;
+}
+
+.top___loading {
+  position: absolute;
+  left: 0;
+  width: 17%;
+  height: 10px;
+  z-index: 200;
+  background: linear-gradient(90deg, rgba(161, 213, 241, 1) 8%, rgba(52, 163, 225, 1) 39%, rgba(61, 167, 226, 1) 65%, rgba(161, 213, 241, 1) 94%);
+}
+
+.banner__img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.txt___content___p p {
+  font-size: 15px;
+}
+
+.bannner___box {
+  height: 500px;
+}
+
+.bannner___box2 {
+  height: 540px;
+}
+
+.banner__img2 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 760px;
+}
+
+.txt___content___p h5 {
+  margin-bottom: 3rem;
+}
+
+/* IZHAN CSS */
+
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+header .navbar .active {
+  text-decoration: underline !important; 
+  /* background-color: red !important; */
+  text-underline-offset: 22px;
+  text-decoration-thickness: 2px !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+
+.logo {
+  width: 150px;
+  height: 40px;
+}
+
+.width__input {
+  width: 400px !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button:hover {
+  background-color: #F1F4F8 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #000 !important;
+
+}
+.nordic__logo{
+  width: 250px;
+  height: 25px;
+}
+.accordion-button::after {
+  background-image: url('/add.png') !important;
+  transform: var(--bs-accordion-btn-icon-transform) !important;
+  border: 1px solid #ccc !important;
+  padding: 0px !important ;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 40px !important;
+  text-align: center !important;
+  background-position: center !important;
+  height: 30px !important;
+  border-radius: 12px !important;
+}
+.fb__box{
+  background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('/minus.png') !important;
+  background-color: #fff !important;
+
+}
+.vl{
+  background-color: #000;
+  opacity: 0.7;
+  height: 2px;
+}
+.signup__box{
+  background: #FFFFFF;
+border: 1px solid #000000;
+border-top: 6px solid #000;
+}
+/* .collapse {
+  background-color: #000 !important;
+  color: #fff !important;
+} */
+
+.accordion-button {
+  box-shadow: none !important;
+  font-weight: bold !important;
+}
+.main___banner___p{
+  font-size: 1.25rem!important;
+}
+.videoad{
+  width: 700px;
+  height: 300px;
+  margin: auto;
+}
+/* IZHAN CSS END */
+@media (min-width:600px) {
+  .fs__3{
+    font-size: calc(1.3rem + 0.6vw) !important;
+  }
+
+  
+}
+
+@media (max-width:1400px) {
+  .socialbtn{
+    font-size: 13px;
+  }
+  .checkout___card___img img {
+    width: 100% !important;
+    height: 155px !important;
+  }
+
+  .checkout___p { 
+    font-size: small !important;
+  }
+
+  .banner__img2 {
+    height: 460px !important;
+  }
+  .bannner___box2 {
+    height: 400px !important;
+  }
+  .tag___line {
+    font-size: 28px !important;
+  }
+  .main___banner___title2{
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 1200px){
+    .socialbtn{
+      font-size: 11px;
+    }
+}
+@media (max-width:991px) {
+  .fs__5 {
+    font-size: 15px !important;
+  }
+
+  .absolute__img {
+    position: static !important;
+    top: 0%;
+    left: -8%;
+  }
+
+  .vh_100 {
+    height: max-content !important;
+  }
+
+  .radius {
+    border-radius: 40px !important;
+  }
+
+  .radius2 {
+    border-radius: 40px !important;
+  }
+
+  .component__div {
+
+    padding: 15px;
+  }
+
+  .border__div {
+    padding: 10px;
+  }
+
+  .ul___checkout li a {
+    font-size: 13px;
+  }
+
+  .ul___checkout li img {
+    width: 20px;
+  }
+
+  .arrow___right {
+    width: 20px;
+  }
+
+  .strip___payment {
+    width: 100%;
+    height: 300px !important;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:600px) {
+  .videoad{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+  }
+  .socialbtn {
+    font-size: 15px;
+ }
+  .tell__us__form {
+    flex-wrap: wrap;
+  }
+
+  .btn__submit__arrow {
+    width: 25%;
+  }
+
+  .footer__row {
+    gap: 10px;
+  }
+
+  .footer__ul {
+    display: block;
+  }
+
+  .footer__ul li {
+    margin: 10px 0px;
+  }
+
+  .ai___p {
+    font-size: 13px;
+  }
+
+  .footer__row {
+    border-radius: 25px;
+  }
+
+  .main___banner___title {
+    font-size: 25px !important;
+  }
+  .main___banner___title2{
+    font-size: 25px !important;
+  }
+  .main___banner___p {
+    font-size: 14px !important;
+  }
+
+  .banner__img {
+    height: 180px;
+  }
+
+  .bannner___box {
+    height: 110px;
+  }
+
+  .bannner___logo {
+    width: 100px;
+  }
+
+  .txt___content___p p {
+    font-size: 12px !important;
+  }
+
+  .width__input {
+    width: 280px !important;
+  }
+
+  .banner__img2 {
+    height: 320px !important;
+  }
+
+  .bannner___box2 {
+    height: 200px !important;
+  }
+
+  .txt___content___p h5 {
+    font-size: 12px !important;
+    margin-bottom: 30px !important;
+  }
+  .main___logo {
+    width: 140px;
+  }
+  .article___banner___title1 {
+    font-size: 12px;
+  }
+  .main___banner___p {
+    font-size: 8px !important;
+  }
+}
+@media (max-width:330px) {
+  .nordic__logo{
+    width: 220px;
+    height: 25px;
+  }
+  
+}
